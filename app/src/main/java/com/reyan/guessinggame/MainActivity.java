@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     result.setText("you win");
                 }else {
                     result.setText("you lose");
+                    button.setEnabled(false);
                 }
             }
         });
